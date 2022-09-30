@@ -3,5 +3,10 @@ Console.Clear();
 //  В МАССИВ МОЖНО ДОБАВЛЯТЬ ЛЮБЫЕ ОПЕРАЦИИ + - делить умножать , их значения со строками ,перепресваивать...
 int[] numbers = {1,2,3,4,5,6,7,8};
 string[] name = {"Bob","Kris","Artem","Anna","John"};
-Console.Write($"{name[2]} !!!");
-Console.Write($"{numbers[3]} !!!");
+// Console.Write($"{name[2]} !!!");
+// Console.Write($"{numbers[3]} !!!");
+
+// МОЖНО ИСПОЛЬЗОВАТЬ ЦИКЛ :
+for (int i = 0; i < 5; i++) 
+    Console.WriteLine($"{i} элемент -это {numbers[i]} !!!");
+// СДЕЛАЛ ТАКОЙ ПРИМЕР НА МАССИВАХ С ЧИСЛАМИ (КОД СВЕРХУ,элемент это...1,2,3...)
